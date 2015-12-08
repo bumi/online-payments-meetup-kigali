@@ -1,0 +1,46 @@
+---
+layout: default
+title: Knowledge sharing meetup
+---
+
+<div class="home" id="home">
+  <h1 class="pageTitle"></h1>
+  <div class="">
+    {% for post in paginator.posts %}
+      <div class="post {{post.layout}}">
+        <h3 class="postTitle"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+        {% if post.layout == 'meetup' %}
+          <p class="meta">
+            When: {{ post.event_date | date: '%B %d, %Y' }} - {{ post.event_time }}
+            <br />
+            Where: 
+            {% if post.location && post.location.url %}
+              <a href="{{post.location.url}}" class="location">{{ post.location.name }}</a>
+            {% elsif post.location %}
+              <span class="location">{{post.location.name}}</span>
+            {% endif %}    
+          </p>
+        {% else %}
+          <p class="meta">
+            {{ post.date | date: '%B %d, %Y' }} 
+          </p> 
+        {% endif %}
+
+        {% if post.truncate == true %}
+          <p class="description">{% if post.description %}{{ post.description | strip_html | strip_newlines | truncate: 250 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 250 }}{% endif %}</p>
+        {% else %}
+          {{ post.content }}
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+  <!-- Pagination links -->
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous button__outline">Newer Posts</a> 
+    {% endif %}
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next button__outline">Older Posts</a>
+    {% endif %}
+  </div>
+</div>
