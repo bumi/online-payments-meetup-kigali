@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital Payment Meetup Kigali</title>
+    <description>The Digital Payments Meetup is an informal event to discuss the state and the future of payments in Rwanda and the whole continent.</description>
+    <link>https://digital-payments-meetup-kigali.5apps.com//</link>
+    <atom:link href="https://digital-payments-meetup-kigali.5apps.com//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 09 Dec 2015 11:49:58 +0200</pubDate>
+    <lastBuildDate>Wed, 09 Dec 2015 11:49:58 +0200</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      
+      <item>
+        <title>#1 Digital Payments Meetup</title>
+        <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;W&lt;/span&gt;elcome to the first Digital Payments meetup in Kigali, an informal get together to discuss all things related to digital and online payments.&lt;/p&gt;
+
+&lt;p&gt;The meeting is intended to bring together people that are interested in learning more about digital payment possibilities in Rwanda and the whole continent.&lt;/p&gt;
+
+&lt;p&gt;The Digital Payments Meetup will take place regularly as we share experiences and harness opportunities in digital payments. &lt;/p&gt;
+
+&lt;p&gt;We will meet at the Impact Hub in Kiyovu on &lt;strong&gt;December 15th  from  7:00pm to 10:00pm&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3&gt;Topics&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The status of digital payments in Africa&lt;/li&gt;
+&lt;li&gt;Mobile Money Payment Gateway challenges and opportunities in Rwanda&lt;/li&gt;
+&lt;li&gt;Policies and regulations governing digital payments in Rwanda&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;rsvp&quot; data-meetup=&quot;kigali-2015-12-15&quot;&gt;
+  &lt;h3&gt;Participants&lt;/h3&gt;
+  &lt;div class=&quot;participants&quot;&gt;
+    ...loading...
+  &lt;/div&gt;
+
+  &lt;h3&gt;Join the meetup&lt;/h3&gt;
+  &lt;p&gt;The meetup is free! Please let us know if you can make it. We will also inform you about updates and future events.&lt;/p&gt;
+  &lt;form method=&quot;post&quot; action=&quot;#&quot; data-meetup=&quot;kigali-2015-12-15&quot;&gt;
+    &lt;label for=&quot;name&quot;&gt;Name&lt;/label&gt;
+    &lt;input type=&quot;text&quot; name=&quot;name&quot; class=&quot;full-width&quot; /&gt;
+    &lt;label for=&quot;email&quot;&gt;Email Address&lt;/label&gt;
+    &lt;input type=&quot;text&quot; name=&quot;email&quot; class=&quot;full-width&quot; /&gt;
+    &lt;input type=&quot;submit&quot; value=&quot;Signup&quot; class=&quot;button&quot; /&gt; &lt;span class=&quot;success&quot; style=&quot;display:none&quot;&gt;Great, see you at the meetup!&lt;/span&gt;
+  &lt;/form&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;Location&lt;/h3&gt;
+
+&lt;div class=&quot;autoAlign&quot;&gt;
+  &lt;iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.487253766976!2d30.067970693711214!3d-1.9586622627780967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca6808722df75%3A0xc60fc6f2a288fe90!2s34+KN+41+St%2C+Kigali%2C+Ruanda!5e0!3m2!1sde!2sde!4v1449587023119&quot; 
+    width=&quot;100%&quot; height=&quot;300&quot; frameborder=&quot;0&quot; style=&quot;border:0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+        
+          <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;W&lt;/span&gt;elcome to the first Digital Payments meetup in Kigali, an informal get together to discuss all things related to digital and online payments.&lt;/p&gt;
+</description>
+        
+        <pubDate>Tue, 08 Dec 2015 00:00:00 +0200</pubDate>
+        <link>https://digital-payments-meetup-kigali.5apps.com//2015/12/08/first-online-payments-meetup-kigali.html</link>
+        <guid isPermaLink="true">https://digital-payments-meetup-kigali.5apps.com//2015/12/08/first-online-payments-meetup-kigali.html</guid>
+        
+        
+      </item>
+      
+    
+  </channel>
+</rss>
