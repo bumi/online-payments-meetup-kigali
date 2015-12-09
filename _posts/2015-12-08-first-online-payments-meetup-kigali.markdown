@@ -18,7 +18,7 @@ date: 2015-12-08
 
 The Digital Payments Meetup will take place regularly as we share experiences and harness opportunities in digital payments. 
 
-We will meet at the Impact Hub in Kiyovu on **December 15th  from  7:00pm to 10:00pm**.
+We will meet at the Impact Hub in Kiyovu on **December 15th  from  6:00pm to 8:00pm**.
 
 ### Topics
 
