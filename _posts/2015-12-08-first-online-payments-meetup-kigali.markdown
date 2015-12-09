@@ -1,10 +1,10 @@
 ---
 layout: meetup
-title:  "#1 Online Payments Meetup"
+title:  "#1 Digital Payments Meetup"
 truncate: false 
 meetup: "kigali-2015-12-15"
 event_date: 2015-12-15 
-event_time: 7pm to 10pm
+event_time: 6pm to 8pm
 location: 
   name: "Impact Hub / The Office Kigali"
   url: "http://impacthub.rw/"
@@ -12,22 +12,19 @@ location:
 date: 2015-12-08
 ---
 
-<p class="intro"><span class="dropcap">W</span>elcome to the first Online Payments meetup in Kigali - an informal and relaxed get-together to discuss all things related to digital and online payments.</p>
+<p class="intro"><span class="dropcap">W</span>elcome to the first Digital Payments meetup in Kigali, an informal get together to discuss all things related to digital and online payments.</p>
 
-<p>The meeting is inteded to bring together people that are interested to learn more about online payment possibilities in Rwanda and the whole continent.</p>
+<p>The meeting is intended to bring together people that are interested in learning more about digital payment possibilities in Rwanda and the whole continent.</p>
 
-It will be the first event but we hope to do it somehow regularly in the future to get a platform to share experiences and ideas arount the topic.
+The Digital Payments Meetup will take place regularly as we share experiences and harness opportunities in digital payments. 
 
 We will meet at the Impact Hub in Kiyovu on **December 15th  from  7:00pm to 10:00pm**.
 
 ### Topics
 
-The idea is to have an open discussion around whatever is interesting for you.  
-The following are some topics that we have found ourselfs discussing:
-
-* Payment Gateways and the challenges in Rwanda
-* Digital Currencies and the status in Rwanda
-* Regulations
+* The status of digital payments in Africa
+* Mobile Money Payment Gateway challenges and opportunities in Rwanda
+* Policies and regulations governing digital payments in Rwanda
 
 
 {% if page.meetup %}{% include rsvp.html meetup=page.meetup %}{% endif %}
