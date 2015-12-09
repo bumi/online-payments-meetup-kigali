@@ -12,11 +12,11 @@ paginate: 10
 
 navigation:
  - title: Home
-   url: /index
+   url: /index.html
  - title: About
-   url: /about
+   url: /about.html
  - title: Contact
-   url: /contact
+   url: /contact.html
 
 social:
    email: hello@michaelbumann.com
