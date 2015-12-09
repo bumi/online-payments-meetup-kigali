@@ -6,14 +6,19 @@ function loadParticipants(rsvpElement) {
 
   participants.equalTo('meetup', meetup).pagination(1,1000).fetch().then(function() {
     participantList.html('');
-    $.each(participants.instance, function(index, p) {
-      var participantEntry = $('<div class="participant"><nobr><img src="" class="avatar" /><span class="name"></span></nobr>');
-      participantEntry.find('.name').html(p.get('name'));
-      if(p.get('gravatarHash') != '') {
-        participantEntry.find('.avatar').attr('src', '//www.gravatar.com/avatar/' + p.get('gravatarHash') + '?s=40');
-      }
-      participantList.append(participantEntry)
-    });
+    var total = participants.instance.length;
+    for(var i=0; i<total; i++) {
+      var participantEntry = $('<tr class="participant"></tr');
+      var p = $('<td><span class="name"></span></td>');
+      p.find('.name').html(participants.instance[i].get('name'));
+      participantEntry.append(p);
+      i++;
+      var p = $('<td><span class="name"></span></td>');
+      p.find('.name').html(participants.instance[i].get('name'));
+      participantEntry.append(p);
+
+      participantList.append(participantEntry);
+    };
   });
 };
 $(function() {
