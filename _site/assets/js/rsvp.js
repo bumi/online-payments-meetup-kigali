@@ -8,7 +8,7 @@ function loadParticipants(rsvpElement) {
     participantList.html('');
     var total = participants.instance.length;
     for(var i=0; i<total; i++) {
-      var participantEntry = $('<tr class="participant"></tr');
+      var participantEntry = $('<tr class="participant"></tr>');
       var p = $('<td><span class="name"></span></td>');
       p.find('.name').html(participants.instance[i].get('name'));
       participantEntry.append(p);
