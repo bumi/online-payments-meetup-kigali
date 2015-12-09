@@ -11,7 +11,7 @@ title: Contact
       Louis-Antoine Muhire<br />
       muhirela@mergims.com
       <hr />
-      <strong>Michael Bumann</strong><br />
+      <strong>Michael Bumann:</strong><br />
       hello@michaelbumann.com
     </p>
   </div>
