@@ -1,6 +1,6 @@
 ---
 layout: meetup
-title:  "#1 Digital Payments Meetup"
+title:  "Digital Payments Meetup 12/2015"
 truncate: false 
 meetup: "kigali-2015-12-15"
 event_date: 2015-12-15 
@@ -12,7 +12,7 @@ location:
 date: 2015-12-08
 ---
 
-<p class="intro"><span class="dropcap">W</span>elcome to the first Digital Payments meetup in Kigali, an informal get together to discuss all things related to digital and online payments.</p>
+<p class="intro"><span class="dropcap">W</span>elcome to the Digital Payments meetup in Kigali, an informal get together to discuss all things related to digital and online payments.</p>
 
 <p>The meeting is intended to bring together people that are interested in learning more about digital payment possibilities in Rwanda and the whole continent.</p>
 
